@@ -43,7 +43,7 @@ async def telegraph(client, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    '🎭 ⭕️ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ⭕️', url=f'https://t.me/nasrani_update'
+                                    '🎭 ⭕️ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ⭕️', url=f'https://t.me/vj_bots'
                                 )
                             ]
                         ]
