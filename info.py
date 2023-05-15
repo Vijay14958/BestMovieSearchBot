@@ -120,8 +120,8 @@ LANGUAGES = ["MALAYALAM", "TAMIL", "ENGLISH", "HINDI", "TELUGU", "KANNADA" "DUBB
 IMDB_DLT_TIME = int(environ.get('IMDB_DLT_TIME', 600))
 
 # heroku
-HRK_APP_NAME = environ.get('HRK_APP_NAME', 'mybots')
-HRK_API = environ.get('HRK_API', '0')
+HRK_APP_NAME = environ.get('HRK_APP_NAME', None))
+HRK_API = environ.get('HRK_API', None))
 
 
 
