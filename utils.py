@@ -642,7 +642,7 @@ async def send_all(bot, userid, files, ident):
                 reply_markup=InlineKeyboardMarkup(
                          [
                              [
-                                 InlineKeyboardButton('4🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬🎁', url="https://t.me/+YCA-JWZDNsJkNmI1")
+                                 InlineKeyboardButton('4🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬🎁', url="https://t.me/vj_bots")
                              ],
                              [
                                  InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url="https://imdb.com"),
@@ -654,7 +654,8 @@ async def send_all(bot, userid, files, ident):
                     
         
             await bot.send_message(
-                text=f"<b><a href='https://t.me/NasraniChatGroup'>Thank For Using Me...</a></b>",
+                text=f"<b><a href='https://t.me/vjbots_bot'>Thank For Using Me...</a></b>",
+
                 chat_id=userid)
 
         except UserIsBlocked:
